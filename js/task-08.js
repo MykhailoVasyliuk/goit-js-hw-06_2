@@ -18,6 +18,4 @@ function handleSubmit(event) {
 
     console.log(formData);
     event.currentTarget.reset();
-
-
 }
