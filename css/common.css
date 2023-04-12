@@ -41,42 +41,6 @@ button {
   width: 70%;
 }
 
-#controls {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-#controls input {
-  width: 50px;
-  margin-right: 10px;
-}
-
-#controls button {
-  padding: 5px 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #4caf50;
-  color: white;
-  cursor: pointer;
-}
-
-#controls button:hover,
-#controls button:focus {
-  background-color: #3e8e41;
-}
-
-#boxes {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#boxes div {
-  margin: 5px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-}
-
 #validation-input {
   border: 3px solid #bdbdbd;
 }
@@ -102,4 +66,8 @@ input.valid {
 input.invalid {
   border-radius: 5px;
   padding: 8px 12px;
+}
+
+#boxes {
+  margin-top: 15px;
 }
