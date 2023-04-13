@@ -21,7 +21,7 @@ function toCreateBoxes(value) {
     box.style.width = `${size}px`;
     box.style.backgroundColor = getRandomHexColor();
     boxes.push(box);
-    size += 10
+    size += 10;
   }
 
   boxesRef.append(...boxes);
